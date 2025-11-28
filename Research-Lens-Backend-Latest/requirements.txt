@@ -1,0 +1,15 @@
+arxiv==2.1.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+spacy==3.7.2
+pandas==2.1.4
+plotly==5.18.0
+dash==2.14.2
+celery==5.3.4
+redis==5.0.1
+Flask==3.0.0
+uvicorn==0.22.0
+fastapi==0.101.1
+psycopg2-binary
+python-dotenv
+sqlalchemy
