@@ -101,7 +101,7 @@ def stats():
                 "description": "LAST 7 DAYS",
                 "intent": "neutral",
                 "icon": "activity",
-                "tag": "Active ⚡"
+                "tag": "active"
             }
         ]
     finally:
