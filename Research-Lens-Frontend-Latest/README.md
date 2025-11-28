@@ -1,4 +1,4 @@
-# Research Lens - Dashboard UI
+# Research Lens Dashboard UI
 
 A clean, responsive, and lightweight Single Page Application (SPA) built to visualize research trends and manage paper repositories. This frontend connects to the **Research Lens** Python backend to provide an interactive interface for researchers.
 
@@ -68,14 +68,14 @@ A clean, responsive, and lightweight Single Page Application (SPA) built to visu
 
 ## Getting Started
 
-### 1️ Prerequisites
+### 1 Prerequisites
 
 - Node.js `v16+`  
 - Backend API running at: `http://localhost:8000`
 
 ---
 
-### 2️ Installation
+### 2 Installation
 
 Run the following:
 
@@ -85,7 +85,7 @@ npm install
 
 ---
 
-### 3️ Start Dev Server
+### 3 Start Dev Server
 
 ```bash
 npm run dev
