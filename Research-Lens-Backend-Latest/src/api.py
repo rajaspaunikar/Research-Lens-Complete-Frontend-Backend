@@ -80,6 +80,14 @@ def stats():
 
         return [
             {
+                "label": "RECENT INFLUX",
+                "value": f"+{recent}",
+                "description": "LAST 7 DAYS",
+                "intent": "neutral",
+                "icon": "activity",
+                "tag": "active"
+            },
+            {
                 "label": "PAPERS PARSED",
                 "value": f"{cnt}",
                 "description": "TOTAL DATABASE",
@@ -95,14 +103,7 @@ def stats():
                 "icon": "star",
                 "direction": "up"
             },
-            {
-                "label": "RECENT INFLUX",
-                "value": f"+{recent}",
-                "description": "LAST 7 DAYS",
-                "intent": "neutral",
-                "icon": "activity",
-                "tag": "active"
-            }
+            
         ]
     finally:
         s.close()
