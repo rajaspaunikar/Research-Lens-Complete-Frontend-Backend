@@ -1,4 +1,4 @@
-# Research Lens — Backend API
+# Research Lens Backend API
 
 The backend engine powering **Research Lens**, a platform built to scrape, analyze, and index research papers from sources like **arXiv**. Using NLP and automation, the system extracts metadata, tracks trends, and exposes insights through a high-performance REST API.
 
@@ -70,14 +70,14 @@ This backend automates research discovery by analyzing temporal trends, extracti
 
 ##  Getting Started
 
-### 1️ Prerequisites
+### 1 Prerequisites
 
 - Python **3.10+**
 - PostgreSQL server running
 
 ---
 
-### 2️ Installation
+### 2 Installation
 
 ```bash
 pip install -r requirements.txt
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 ---
 
-### 3️ Environment Setup
+### 3 Environment Setup
 
 Create a `.env` file:
 
@@ -95,7 +95,7 @@ DATABASE_URL=postgresql://postgres:yourpassword@localhost:5432/research_lens
 
 ---
 
-### 4️ Initialize Database & Run First Scrape
+### 4 Initialize Database & Run First Scrape
 
 ```bash
 cd src
@@ -106,7 +106,7 @@ This fetches and indexes the most recent research papers.
 
 ---
 
-### 5️ Run the API Server
+### 5 Run the API Server
 
 ```bash
 # From inside src/
