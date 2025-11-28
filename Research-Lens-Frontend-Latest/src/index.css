@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+:root {
+  --main-blue: #2563eb;
+  --light-gray: #f8f9fa;
+  --border-color: #e5e7eb;
+}
+
+body {
+  background-color: var(--light-gray);
+  color: #111827;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.app-container {
+  max-width: 1150px; 
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.content-box {
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: 6px; 
+  padding: 24px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  margin-bottom: 20px;
+}
+
+.content-box h3 {
+  margin-top: 0;
+  font-size: 15px; 
+  font-weight: 700;
+  color: #6b7280;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+}
+
+.repo-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.repo-table th {
+  text-align: left;
+  padding: 14px;
+  background-color: #fbfbfb;
+  border-bottom: 2px solid var(--border-color);
+  font-weight: 600;
+  color: #555;
+}
+
+.repo-table td {
+  padding: 14px;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: middle;
+}
+
+.repo-table tr:hover {
+  background-color: #fcfcfc;
+}
+
+.search-input {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: var(--main-blue);
+}
+
+.action-button {
+  padding: 8px 18px;
+  background-color: var(--main-blue);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.action-button:hover {
+  opacity: 0.9;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.tag-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
