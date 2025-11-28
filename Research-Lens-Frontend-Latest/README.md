@@ -6,7 +6,7 @@ A clean, responsive, and lightweight Single Page Application (SPA) built to visu
 
 ## Project Structure
 
-
+```
 .
 ├── eslint.config.js
 ├── index.html
@@ -27,14 +27,6 @@ A clean, responsive, and lightweight Single Page Application (SPA) built to visu
 └── vite.config.js
 
 4 directories, 14 files
-```
-src/
-├── pages/              
-│   ├── Dashboard.jsx  
-│   ├── Repository.jsx  
-│   └── Trends.jsx      # Interactive Keyword Velocity Graph
-├── App.jsx             # Main Routing & Layout configuration
-└── index.css           # Custom styling & Tailwind imports
 ```
 
 ---
